@@ -81,19 +81,59 @@
      position:absolute;
      top:100%;
      left:50%;
-     -webkit-transform: translate(-50%,-50%)rotateX(90deg);
+     -webkit-transform: translate(-50%, -50%)rotateX(90deg);
      transform: translate(-50%,-50%)rotateX(90deg);
      background:-webkit-radial-gradient(center, center,farthest-side,#9993
-     transparent;)
+     transparent);
+     
     }
    
     #music-container:
     position:absolute;
      top:0;
      left:0;
-    
+   }
    
+   
+   @web-kit-keyframes spin{
+      from{
+         -webkit-transform: rotateY(0deg);
+         transform: rotateY(0deg);
+      }to{
+         -webkit-transform: rotateY(360deg);
+         transform: rotateY(360deg);
+   }
+      
+      
+   @web-kit-keyframes spinRevert{
+      from{
+         -webkit-transform: rotateY(360deg);
+         transform: rotateY(360deg);
+      }to{
+         -webkit-transform: rotateY(0deg);
+         transform: rotateY(0deg);
+   }
             
+      
+      @keyframes spin {
+         from{
+         -webkit-transform: rotateY(0deg);
+         transform: rotateY(0deg);
+      }to{
+         -webkit-transform: rotateY(360deg);
+         transform: rotateY(360deg);    
+      }
+         
+     @keyframes spinRevert {
+         from{
+         -webkit-transform: rotateY(360deg);
+         transform: rotateY(360deg);
+      }to{
+         -webkit-transform: rotateY(0deg);
+         transform: rotateY(0deg);    
+      }      
+               
+         
 </style>
 <body>
 <div id ="drag-container">
