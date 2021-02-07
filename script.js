@@ -1,4 +1,4 @@
-var raduis = 240;
+var radius = 240;
 var autorotate = true;
 var rotateSpeed =-60;
 
@@ -8,10 +8,10 @@ var imgHeight= 170;
 var obox = document.getElementById('drag-container');
 var ospin = document.getElementById('spin-container');
 var aImg = ospin.getElementByTagName('img');
-var aVid = ospin.getElementByTagName('Video');
+var aVid = ospin.getElementByTagName('video');
 var aEle =[...aImg,...aVid];
-ospin.style.width = imgWidth + "px"
-ospin.style.height = imgWidth + "px"
+ospin.style.width = imgWidth + "px";
+ospin.style.height = imgWidth + "px";
 
 var ground  = document.getElementById('ground');
 ground.style.width = radius * 3 + "px";
