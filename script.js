@@ -1,4 +1,4 @@
-var radius = 240;
+var radius = 230;
 var autorotate = true;
 var rotateSpeed =-60;
 
