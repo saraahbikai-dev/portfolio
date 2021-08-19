@@ -3,3 +3,26 @@ p {
     line-height: 2em;
     color: #000000;
     font-family:'bahnschrift','Sans-Serif';
+    
+    nav ul, footer ul {
+    font-family:'bahnschrift', 'Sans-Serif';
+    padding: 10px;
+    font-size: 13px;
+    list-style: none;
+    font-weight: bold;
+    margin: 15px;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: #775b3e;
+    font-size:15px;
+    font-family: 'bahnschrift', 'Sans-Serif';
+}
+a:hover {
+    text-decoration: underline;
+    color: 8daa99;
