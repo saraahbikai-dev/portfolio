@@ -19,7 +19,7 @@ p {
 }
 
     
-    nav ul, footer ul {
+    nav ul {
     font-family:'bahnschrift', 'Sans-Serif';
     padding: 10px;
     font-size: 13px;
@@ -29,7 +29,7 @@ p {
 }
 
 
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
     
